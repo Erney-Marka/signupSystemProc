@@ -1,0 +1,60 @@
+.body {
+    font-family: sans-serif;
+    background-color: darkgrey;
+}
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container, .form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.title {
+    font-size: 1.5em;
+}
+.form {
+    width: 100%;
+}
+
+.input, .btn {
+   margin-top: 1%;
+   padding: 3%;
+   border-radius: 0.5em;
+}
+
+.btn {
+    width: 50%;
+    cursor: pointer;
+    background-color: rgb(68, 68, 68);
+    color: aliceblue;
+    margin: 2% auto;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: black;
+    transition: 0.7s;
+}
+
+.form_error, .form_success {
+    text-align: center;
+}
+
+.form_error {
+    color: brown;
+}
+
+.form_success {
+    color: darkgreen;
+}
